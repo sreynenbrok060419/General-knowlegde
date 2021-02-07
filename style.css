@@ -2,12 +2,9 @@
     margin: 0;
     padding: 0;
 }
-header{
+body{
     background-image: url(image\ code\ \(2\).jpg);
-    height: 100vh;
     background-size: cover;
-    background-position: center;
-    
 }
 
 ul{
@@ -48,4 +45,10 @@ ul li.news a{
     margin: 10px;
 }
 
+
+=======
+}
+#margin {
+    margin-left: 50px;
+}
 
