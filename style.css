@@ -4,7 +4,9 @@
 }
 body{
     background-image: url(image\ code\ \(2\).jpg);
-    background-size: cover;
+    background-size: 80%;
+    background-color: darkblue;
+    background-repeat: no-repeat;
 }
 
 ul{
@@ -44,11 +46,11 @@ ul li.news a{
     height: auto;
     margin: 10px;
 }
-
-
-=======
+p{
+    text-align: right;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: white;
 }
-#margin {
-    margin-left: 50px;
-}
+
 
