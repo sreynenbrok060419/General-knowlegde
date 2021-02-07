@@ -1,7 +1,51 @@
-
-.content{
-    height: 100vh;
-    width: 100%;
-    background-image: url(image\ code\ \(2\).jpg);
-    background-size: cover;
+*{
+    margin: 0;
+    padding: 0;
 }
+header{
+    background-image: url(image\ code\ \(2\).jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin: 20px;
+}
+ul li{
+    display: inline-table;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 50px;
+    border: 1px solid;
+    border-radius: 20px;
+    cursor: pointer;
+}
+ul li a:hover{
+    background-color: white;
+}
+ul li.home a{
+    background-color: cyan;
+}
+ul li.history a{
+    background-color: magenta;
+}
+ul li.cooking a{
+    background-color: red;
+}
+ul li.news a{
+    background-color: lightgreen;
+}
+.logo img{
+    float: left;
+    width: 100px;
+    height: auto;
+    margin: 10px;
+}
+
+
